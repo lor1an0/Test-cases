@@ -1,5 +1,5 @@
 name: "Test workflow"
-run-name: Running on ${{ github.event_name }} for ${{ github.ref_name }}
+run-name: Running on ${{ github.event_name }} for $GITHUB_REPOSITORY
 on:
   workflow_dispatch:
     inputs:
