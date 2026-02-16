@@ -27,8 +27,7 @@ on:
   push:
       branches:
           - 'release/**'
-      branches-ignore:
-          - '**-test'
+          - '!**test'
         
 
 jobs:
