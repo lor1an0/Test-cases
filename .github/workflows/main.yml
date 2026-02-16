@@ -26,9 +26,9 @@ on:
         required: true
   push:
       branches:
-          - release/**
+          - 'release/**'
       branches-ignore:
-          - **-test
+          - '**-test'
         
 
 jobs:
